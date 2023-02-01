@@ -22,21 +22,25 @@
 
   <!-- <div class="container">
     <h2>Add activity to the list.</h2>
-     <form id="activity-form">
-        <input type="text" class="form-input w-100" id="activity-input" name="activity-input" placeholder="Enter item name" />
-        <button class="btn btn-info">Add activity</button>
-      </form> -->
-  <!-- Timeblocks go here -->
-  <div class="input-group">
-    <div class="input-group-prepend">
-      <span class="input-group-text">09:00</span>
+    <form id="activity-form">
+      <input type="text" class="form-input w-100" id="activity-input" name="activity-input"
+        placeholder="Enter item name" />
+      <button class="btn btn-info">Add activity</button>
+    </form> -->
+    <!-- Timeblocks go here -->
+    <div class="input-group col-12">
+      <div class="input-group-prepend">
+        <!-- hourly-schedule -->
+        <span class="input-group-text">Hour</span>
+      </div>
+      <textarea class="form-control" data-time="9 AM"></textarea>
+      <!--Activity  -->
+      <div class="input-group-text">
+        <input type="checkbox" aria-label="Checkbox for following text input">
+        <!-- Checked if task completed -->
+      </div>
+
     </div>
-    <textarea class="form-control" aria-label="With textarea"></textarea>
-    <div class="input-group-text">
-      <input type="checkbox" aria-label="Checkbox for following text input">
-    </div>
-  </div>
-  
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
